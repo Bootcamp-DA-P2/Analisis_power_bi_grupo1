@@ -46,15 +46,6 @@ Para evitar la duplicidad de categorías debido a problemas de capitalización o
 ### 5. Consolidación y Tipado de Datos
 * Se forzó el tipo de datos correcto para cada columna (Moneda/Número Decimal para precios, Entero para IDs y noches mínimas, Texto para dimensiones categóricas, y Fecha para registros temporales).
 * Se añadieron columnas personalizadas de origen (como la columna `Ciudad`) en cada tabla individual antes de realizar la anexión para mantener la trazabilidad de los registros en el modelo unificado final.
-
----
-
-## 📊 Estado Actual del Proyecto
-Tras la finalización de esta etapa, disponemos de una tabla unificada y limpia (**Todas_ciudades**) lista para:
-1.  Diseñar el modelo de datos en estrella (creación de tablas de dimensiones y hechos).
-2.  Desarrollar medidas avanzadas en DAX (KPIs de ocupación, ingresos estimados y precios medios).
-3.  *Próxima Fase:* Diseño de la presentación interactiva y el dashboard visual.
-
 ---
 
 ## ✒️ Autores
