@@ -40,7 +40,7 @@ Para evitar la duplicidad de categorías debido a problemas de capitalización o
 
 ### 4. Gestión de Valores Nulos y Datos Faltantes
 * Se identificaron columnas críticas con registros vacíos.
-* En campos de texto no determinantes se sustituyeron los valores nulos por etiquetas estandarizadas como `"No especificado"`.
+* En campos de texto no determinantes se sustituyeron los valores nulos por etiquetas estandarizadas como 0.
 * En métricas cuantitativas clave (como puntuaciones de reseñas o tarifas de limpieza), se aplicaron reglas de negocio específicas (por ejemplo, asumir `0` o filtrar filas según correspondiera) para no sesgar los cálculos de los KPIs principales.
 
 ### 5. Consolidación y Tipado de Datos
