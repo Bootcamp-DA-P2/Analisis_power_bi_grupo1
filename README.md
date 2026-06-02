@@ -14,6 +14,14 @@ El objetivo principal de esta fase ha sido consolidar los datasets independiente
 
 ---
 
+
+## 🛠️ Tecnologías Utilizadas
+* **Power BI / Power Query**: Extracción, transformación, carga (ETL) y modelado de datos.
+* **Formatos de Origen**: Archivos de texto plano (.CSV).
+* **Markdown**: Documentación del proyecto.
+
+---
+
 ## 🌍 Ciudades Incluidas
 El análisis abarca los mercados de las siguientes ciudades globales:
 * 🇪🇸 **Madrid**
