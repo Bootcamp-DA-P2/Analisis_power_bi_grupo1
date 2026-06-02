@@ -62,6 +62,31 @@ Para evitar la duplicidad de categorías debido a problemas de capitalización o
 * Se forzó el tipo de datos correcto para cada columna (Moneda/Número Decimal para precios, Entero para IDs y noches mínimas, Texto para dimensiones categóricas, y Fecha para registros temporales).
 * Se añadieron columnas personalizadas de origen (como la columna `Ciudad`) en cada tabla individual antes de realizar la anexión para mantener la trazabilidad de los registros en el modelo unificado final.
 
+### 6. Division del Dashboard
+
+#### A. Analisis Global
+
+En la siguiente imgen podemos observar los diferentes kpi que hemos decidido y diferentes gráficos con los datos que hemos querido destacar a nivel general.
+
+![Analisis Global](/assets/Analisis_global.png)
+
+#### B. Analisis de Precio
+En este apartado hemos decidido analizar las variantes de los precios, barrios mas caros, total de reviews y precio promedio total por Ciudad entre otros datos.
+
+![Analisis Precios](/assets/Analisis_precio.png)
+
+#### C. Analisis Host
+
+Hemos querido analizar diversos datos relacionados con los hots y su tipo.
+
+![Analisis Host](/assets/Analisis_host.png)
+
+#### D. Conclusiones
+
+También hemos sacado unas conclusiones finales respecto a los datos que hemos analizado que queda mejor explicada en la siguiente imagen o en el fichero de Power Bi.
+
+![Conclusiones](/assets/Conclusiones.png)
+
 ---
 
 ## ✒️ Autores
