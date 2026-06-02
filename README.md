@@ -4,6 +4,14 @@ Este repositorio contiene la fase inicial y fundamental de nuestro análisis de 
 
 El objetivo principal de esta fase ha sido consolidar los datasets independientes de varias ciudades globales en un modelo único, limpio, coherente y optimizado.
 
+
+---
+
+## ✒️ Autores
+* **Felix Gonzalez**
+* **Noelia Sanchez**
+* **M. Ángel Moreno**
+
 ---
 
 ## 🌍 Ciudades Incluidas
@@ -86,10 +94,3 @@ Hemos querido analizar diversos datos relacionados con los hots y su tipo.
 También hemos sacado unas conclusiones finales respecto a los datos que hemos analizado que queda mejor explicada en la siguiente imagen o en el fichero de Power Bi.
 
 ![Conclusiones](/assets/Conclusiones.png)
-
----
-
-## ✒️ Autores
-* **Felix Gonzalez**
-* **Noelia Sanchez**
-* **M. Ángel Moreno**
