@@ -17,7 +17,22 @@ El análisis abarca los mercados de las siguientes ciudades globales:
 
 ---
 
-## 🛠️ Proceso de Limpieza y Transformación de Datos
+## 🚀 Cómo Utilizar este Proyecto
+
+Para replicar, revisar o continuar con el desarrollo de este proyecto utilizando el archivo de Power BI, sigue estos pasos:
+
+### 1. Requisitos Previos
+* Tener instalado **Power BI Desktop** (se recomienda la versión más reciente).
+* Disponer de un cliente Git (opcional, para clonar) o descargar el proyecto en formato ZIP.
+
+### 2. Obtención de los Archivos
+Clona este repositorio en tu máquina local utilizando tu terminal:
+
+```bash
+git clone https://github.com/Bootcamp-DA-P2 Analisis_power_bi_grupo1
+```
+
+### 🛠️ Proceso de Limpieza y Transformación de Datos
 
 Las fuentes de datos originales presentaban diversas inconsistencias típicas de sistemas transaccionales distribuidos: formatos de moneda locales, caracteres especiales corruptos o inconsistentes, valores nulos y estructuras de texto no estandarizadas. 
 
@@ -40,12 +55,13 @@ Para evitar la duplicidad de categorías debido a problemas de capitalización o
 
 ### 4. Gestión de Valores Nulos y Datos Faltantes
 * Se identificaron columnas críticas con registros vacíos.
-* En campos de texto no determinantes se sustituyeron los valores nulos por etiquetas estandarizadas como 0.
+* En campos de texto no determinantes se sustituyeron los valores nulos por etiquetas estandarizadas como `"No especificado"`.
 * En métricas cuantitativas clave (como puntuaciones de reseñas o tarifas de limpieza), se aplicaron reglas de negocio específicas (por ejemplo, asumir `0` o filtrar filas según correspondiera) para no sesgar los cálculos de los KPIs principales.
 
 ### 5. Consolidación y Tipado de Datos
 * Se forzó el tipo de datos correcto para cada columna (Moneda/Número Decimal para precios, Entero para IDs y noches mínimas, Texto para dimensiones categóricas, y Fecha para registros temporales).
 * Se añadieron columnas personalizadas de origen (como la columna `Ciudad`) en cada tabla individual antes de realizar la anexión para mantener la trazabilidad de los registros en el modelo unificado final.
+
 ---
 
 ## ✒️ Autores
